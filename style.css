@@ -1,0 +1,302 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.container {
+    text-align: center;
+}
+
+.container {
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh; 
+text-align: center;
+
+}
+
+
+.weather-card:hover {
+    transform: scale(1.05);
+}
+
+#weather-info {
+    display: none;
+}
+
+#weather-icon {
+    width: 100px;
+    height: 100px;
+}
+
+#temperature {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+#description {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#wind-speed {
+    font-size: 16px;
+    color: rgb(255, 0, 0);
+}
+
+#date {
+    font-size: 14px;
+    color: rgb(255, 0, 0);
+}
+
+body {
+height: 100%;
+margin: 0;
+display: flex;
+flex-direction: column;
+}
+
+body {
+box-sizing: border-box;
+background-color: #ffffff; 
+color: #800000; 
+overflow-x: hidden;
+}
+
+main {
+flex: 1; 
+}
+
+header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #800000; 
+padding: 10px 0;
+z-index: 1000;
+}
+
+header .logo {
+margin-left: 5%;
+color: #ffffff; 
+font-weight: 700;
+text-decoration: none;
+font-size: 2em;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+
+header ul {
+display: flex;
+align-items: center;
+}
+
+header ul li {
+font-size: 20px;
+list-style: none;
+margin-left: 20px;
+}
+
+header ul li a {
+text-decoration: none;
+padding: 6px 20px;
+color: #ffffff; 
+border-radius: 20px;
+}
+
+header ul li a:hover {
+background: #F4CCCC; 
+color: #800000; 
+}
+
+footer {
+text-align: center;
+color: #800000; 
+padding: 10px;
+background-color: #f8f8f8;
+border-top: 1px solid #800000;
+}
+
+/* Home Page Styles */
+.details {
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-left: 13%;
+margin-top: 1%;
+padding-top: 60px;
+}
+
+.details h1 {
+font-size: 50px;
+color: #800000; /* Maroon */
+margin-bottom: 20px;
+}
+
+.details p {
+color: #B22222; 
+line-height: 22px;
+margin-right: 20px;
+}
+
+img {
+
+margin-left: 20px; 
+width: 300px; 
+max-width: 100%;
+height: auto;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+border: 2px solid #B22222;
+padding: 5px;
+transition: transform 0.3s ease; 
+}
+
+img:hover {
+transform: scale(1.1);
+}
+
+.details a {
+background: #800000;
+padding: 10px 25px;
+text-decoration: none;
+font-weight: bold;
+color: #ffffff; 
+display: inline-block;
+border-radius: 20px;
+margin-top: 20px;
+}
+
+.details a:hover {
+background: #F4CCCC; 
+}
+
+/* About Page Styles */
+.about-content {
+margin: 20px;
+padding-top: 60px;
+}
+
+.about-content h1 {
+font-size: 40px;
+color: #800000; 
+margin-bottom: 20px;
+}
+
+.about-content p {
+color: #B22222;
+line-height: 22px;
+}
+
+.video-container {
+margin-top: 20px;
+text-align: center;
+}
+
+.video-container video {
+width: 80%;
+max-width: 800px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Contact Page Styles */
+.content {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 5% 10%;
+padding-top: 60px;
+}
+
+.content h1 {
+font-size: 50px;
+color: #800000; 
+margin-bottom: 20px;
+}
+
+.content p {
+color: #B22222; 
+line-height: 22px;
+margin-top: 20px;
+}
+
+.contact-form {
+margin-top: 20px;
+width: 100%;
+max-width: 600px;
+}
+
+.contact-form input, .contact-form textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #B22222;
+border-radius: 5px;
+}
+
+.contact-form button {
+background: #800000;
+color: #ffffff; 
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+}
+
+.contact-form button:hover {
+background: #F4CCCC; 
+color: #800000;
+}
+
+
+section {
+padding: 60px 20px;
+}
+
+#languages-section {
+width: 90%;
+max-width: 1000px;
+margin-top: 20px;
+}
+
+#languages-content {
+display: flex;
+justify-content: center;
+gap: 100px; 
+flex-wrap: wrap; 
+align-items: center; 
+}
+
+
+.language {
+background-color: rgba(255, 255, 255, 0.1);
+border-radius: 10px;
+padding: 15px;
+width: 30%;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+color: #020202;
+}
+
+.language p {
+margin: 5px 0;
+}
+
+#languages-section h2 {
+color: #800000;
+text-align: center;
+margin-bottom: 15px;
+}
